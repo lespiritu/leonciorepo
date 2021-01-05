@@ -1,1 +1,2 @@
-test lang to wnd
+test lang to wnd as
+hello
