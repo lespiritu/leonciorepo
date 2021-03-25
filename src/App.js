@@ -6,7 +6,7 @@ import Navigation from "./navigation.jsx";
 function App() {
   return (
     <div className="App">
-     
+       <Navigation/>
       <Routes>
         <Route path="/" element = {<Home />}/>
         <Route path="/gallery" element = {<Gallery/>}/>
@@ -15,7 +15,7 @@ function App() {
         <Route path="*" element = {<NotExitPage/>}/>
       </Routes>
 
-      <Navigation/>
+      
     </div>
   );
 }

@@ -1,3 +1,9 @@
+.header-1{
+    padding:20px;
+    background-color: rgb(238, 231, 225);
+    height: 100px;
+}
+
 .navigation{
     margin: 0 auto;
     background-color: rgb(58, 51, 42);
@@ -7,7 +13,7 @@
 .navigation a{
 padding:15px 20px;
 text-decoration: none;
-transition: 1s ease;
+transition: 0.7s ease;
 color:rgb(238, 229, 215);
 
 }
