@@ -5,8 +5,6 @@ import {Link} from "react-router-dom";
 function Navigation(){
 
     const [NavActive, SetNavActive] = useState('home');
-
-
     const Click = indexClick=>SetNavActive(indexClick);
     const ActivBtn = indexActive => NavActive === indexActive? 'active' : '';
 
